@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d247704766c84cd09bf2b52e2137d8af" Name="Diagram1">
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.BinhLuan" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.ChiTietDonHang" Width="1.5" PointX="8.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.ChiTietPhieuNhap" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.DonDatHang" Width="1.5" PointX="6" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.KhachHang" Width="1.5" PointX="3.75" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.LoaiSanPham" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.LoaiThanhVien" Width="1.5" PointX="0.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.LoaiThanhVien_Quyen" Width="1.5" PointX="6" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.NhaCungCap" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.NhaSanXuat" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.PhieuNhap" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.Quyen" Width="1.5" PointX="3.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.SanPham" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.sysdiagram" Width="1.5" PointX="7.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.ThanhVien" Width="1.5" PointX="3" PointY="14.125" IsExpanded="true" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_BinhLuan_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_BinhLuan_ThanhVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_ChiTietDonHang_DonDatHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_ChiTietDonHang_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_ChiTietPhieuNhap_PhieuNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_ChiTietPhieuNhap_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_DonDatHang_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_KhachHang_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_SanPham_LoaiSP" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_LoaiThanhVien_Quyen_LoaiThanhVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_ThanhVien_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_LoaiThanhVien_Quyen_Quyen" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_PhieuNhap_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_SanPham_NhaCungCap" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK_SanPham_NhaSanXuat" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
